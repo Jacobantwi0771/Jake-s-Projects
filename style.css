@@ -1,0 +1,159 @@
+body,h1,h2,p,ul,li{
+    marging: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: aliceblue;
+}
+.container{
+    max-width: 600px;
+    padding: 20px;
+}
+.box{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/640px-Roasted_coffee_beans.jpg');
+    background-repeat: repeat-x;
+    height: 150px;
+    padding: 10px;
+    background-size: contain;
+    
+}
+#leg{
+    color: white;
+    text-align: center;
+}
+.jak{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.jak img{
+    width: 70px;
+    height: auto;
+}
+.jak h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 1%;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: 5px 10px 0px 10px;
+    box-sizing: border-box;
+    border: 2px solid #e7e7e7;
+    border-radius: 50px;
+    width: 50%;
+    color: whitesmoke;
+}
+nav ul li a:hover{
+    background-color:rgb(253, 237, 184);
+    color: #222;
+}
+.intro{
+    text-align: center;
+    background-color: #B7BAC3;
+    padding: 20px;
+}
+.hero{
+    background-color: bisque;
+    padding: 20px;
+}
+.hero h2{
+    text-align: center;
+}
+.menu-item{
+    display: inline-block;
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    margin-left: 10%;
+}
+.menu-item img{
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 20px black;
+}
+.write input,textarea{
+ display: block;
+ width: 30%;
+ padding: 10px;
+ margin-bottom: 10px;
+ border-radius: 4px;
+ bottom: 1px solid #ccc;
+}
+.write button{
+    padding: 10px 20px;
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.write button:hover{
+    background-color: #555;
+}
+.write{
+    margin-bottom: 20px;
+}
+.tick{
+    margin-bottom: 20px;
+}
+.hun{
+    padding-left: 20px;
+}
+.mum{
+    background-color: #afb3bc;
+    padding: 30px 30px 30px 20px;
+}
+.last{
+    text-decoration: none;
+}
+.top{
+    margin: 20px 0px 20px 45%;
+
+}
+.top a{
+    text-decoration: none;
+    text-align: center;
+    border: 0px solid none;
+    padding: 10px 15px;
+    background-color: #222;
+    color: #fff;
+}
+.top a:hover{
+    background-color: #555;
+}
+.last a{
+    text-decoration: none;
+    color: #fff;
+}
+.last a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.last{
+    text-align: center;
+    background-color: #6E77EE;
+    color: #fff;
+    padding: 20px;
+}
+.last p{
+    font-size: small;
+}

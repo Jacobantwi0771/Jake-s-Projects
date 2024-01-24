@@ -41,9 +41,10 @@ body{
 }
 nav ul{
     list-style-type: none;
+    
 }
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin-left: 1%;
     margin-top: 25px;
     margin-bottom: 10px;
